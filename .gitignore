@@ -1,0 +1,33 @@
+# Python
+pycache/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Raw/private datasets
+data/*
+!data/README.md
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+models/
+
+# Experiment outputs
+wandb/
+runs/
