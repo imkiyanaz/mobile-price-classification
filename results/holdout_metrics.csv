@@ -1,0 +1,5 @@
+model,accuracy,macro_f1,note
+"Decision Tree (baseline, max_depth=3)",0.7907407407,,Saved notebook output
+Random Forest (tuned),0.9,0.9004497358,Saved notebook output
+SVM (baseline linear),0.962962963,,Saved notebook output
+SVM (GridSearch best estimator),0.9592592593,,Direct best_svm.score output; detailed metric cell was corrected and should be rerun
